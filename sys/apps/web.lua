@@ -364,7 +364,7 @@ while true do
 		end
 		renderGUI()
 	elseif event=="mouse_click" then
-		if p3==19 then
+		if p3==18 then
 			menuMode=true
 			currentX=1--default if below is false
 			if p2>36 then currentX=2 end
