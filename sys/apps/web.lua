@@ -139,7 +139,7 @@ function renderGUI()
 	--draw left bar
 	term.setTextColor(colours.white)
 	term.setBackgroundColor(colours.lightGrey)
-	for line=1,18 do
+	for line=1,17 do
 		term.setCursorPos(1,line)
 		term.write(" ")
 	end
@@ -158,9 +158,9 @@ function renderGUI()
 	--term.setCursorPos(1,19)
 	--term.write(siteName..pageName)
 	--draw menu bar items
-	drawButton(42,19,"refresh",currentX,3,menuMode)
-	drawButton(36,19,"menu",currentX,2,menuMode)
-	drawButton(1,19,siteName..pageName,currentX,1,menuMode)
+	drawButton(42,18,"refresh",currentX,3,menuMode)
+	drawButton(36,18,"menu",currentX,2,menuMode)
+	drawButton(1,18,siteName..pageName,currentX,1,menuMode)
 end
 
 function popup(text)--a nice GUI popup asking for text
