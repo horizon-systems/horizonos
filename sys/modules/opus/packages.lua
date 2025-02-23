@@ -56,8 +56,8 @@ end
 
 function Packages:downloadList()
 	local packages = {
-		[ 'develop' ] = 'https://raw.githubusercontent.com/kepler155c/opus-apps/develop-1.8/packages.list',
-		[ 'master' ] = 'https://raw.githubusercontent.com/kepler155c/opus-apps/master-1.8/packages.list',
+		[ 'develop' ] = 'https://raw.githubusercontent.com/horizon-systems/horizon-apps/develop/packages.list',
+		[ 'master' ] = 'https://raw.githubusercontent.com/horizon-systems/horizon-apps/master/packages.list',
 	}
 
 	if packages[_G.OPUS_BRANCH] then
