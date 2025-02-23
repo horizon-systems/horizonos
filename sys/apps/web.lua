@@ -151,7 +151,7 @@ function renderGUI()
 	end
 	--draw bottom bar
 	term.setBackgroundColor(colours.lightGrey)
-	term.setCursorPos(1,19)
+	term.setCursorPos(1,18)
 	for line=1,51 do
 		term.write(" ")
 	end
